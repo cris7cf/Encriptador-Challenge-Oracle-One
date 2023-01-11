@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Challenge 1 </title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+
+    </head>
+
+    <body>
+
+        <header class="logo">
+                <h1 class="title">Encripador - Desencriptador de texto</h1>
+        </header>
+
+        <main class="container">
+            <section class="left">
+                <input class="text-input" id="inputText" type="text" placeholder="Ingrese el texto aquí">
+            </section>
+
+            <section class="right">
+                <img src="Muñeco.png" id="imgDer">
+                <h2 id="text">Ningun mensaje fue encontrado</h2>
+                <textarea id="text2" name="name" rows="8" cols="80">Ingrese el texto que desees encriptar o desencriptar</textarea>
+                <button id="copiar" type="button" onclick="copiar()">Copiar</button>
+            </section>
+
+            <section class="left-button">
+                <p class="alerta"><img class="alert" src="alert.png">Solo letras minusculas y sin acentos</p>
+                <button id="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
+                <button id="btn-desencriptar" type="button" onclick="desencriptar()">Desencriptar</button>
+            </section>
+        </main>
+
+        <footer>
+
+            <p class="copyright">&copy Copyright Cristian Ceron - 2022</p>
+
+        </footer>
+
+    </body>
+    
+</html>
