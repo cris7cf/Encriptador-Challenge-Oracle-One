@@ -184,6 +184,60 @@ footer{
 }
 
 @media screen and (max-width:480px) {   
+    
+    .container, .left, .right, footer{
+       width: auto;
+    }
 
+    .title{
+        margin: 5px 0 0 0;
+        font-size: 30px;
+        float: none;
+    }
+
+    .vector{
+        padding: 12px 0 0 12px;
+    }
+
+    .left{
+        width: 100%;
+        height: 50%;
+        margin-bottom: 28px;
+    }
+
+    .left-button{
+        position: absolute;
+        top: 260px;
+        float: none;
+        width: 100%;
+        height: 20%;
+    }
+
+    #btn-encriptar{
+        margin-left: 12%;
+    }
+
+    .alerta{
+        margin-left: 15px;
+    }
+
+    .right{
+        float: right;
+        width: 100%;
+        height: 90%;
+    }
+
+    footer{
+        height: 20px;
+        position: absolute;
+        top: 968px;
+        padding: 40px;
+        width: 100%;
+    }
+
+    .copyright{
+            padding-right: 80px;
+        }
+ 
 }
 
